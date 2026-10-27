@@ -40,7 +40,7 @@ export function generateOptions(correctAnswer: number): number[] {
   }
 
   let step = 1;
-  while (optionsSet.size < 4) {
+  while (optionsSet.size < 4 && step <= 50) {
     const candidate = correctAnswer + step;
     if (candidate >= 0) {
       optionsSet.add(candidate);

@@ -29,7 +29,7 @@ function isYesterday(dateString: string, today: Date): boolean {
 
 function evaluateAwards(progress: Progress): string[] {
   const newlyUnlocked: string[] = [];
-  const existing = new Set(progress.unlockedAwards || []);
+  const existing = new Set(Array.isArray(progress.unlockedAwards) ? progress.unlockedAwards : []);
 
   for (const award of AWARD_DEFINITIONS) {
     if (!existing.has(award.id) && award.getCurrent(progress) >= award.target) {
