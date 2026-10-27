@@ -11,7 +11,7 @@ This roadmap takes Math Sanctuary from an AI Studio prototype to a robust multip
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Foundation & Hardening** - Stabilize dependencies, fix path aliases, bundle local fonts, supply PWA icons, and configure Vitest
+- [x] **Phase 1: Foundation & Hardening** - Stabilize dependencies, fix path aliases, bundle local fonts, supply PWA icons, and configure Vitest
 - [ ] **Phase 2: Database Schema & Go Core Microservice** - PostgreSQL schema, lightweight Go service on Koyeb, Telegram HMAC auth, and anti-cheat validation
 - [ ] **Phase 3: BFF Presentation & Session Layer** - BFF service managing httpOnly auth cookies, Go API proxying, and SSG/SEO public landing
 - [ ] **Phase 4: Client Offline-First Sync Engine** - Two-way background synchronization between localStorage and PostgreSQL with sync UI indicators
@@ -38,11 +38,11 @@ This roadmap takes Math Sanctuary from an AI Studio prototype to a robust multip
 Plans:
 **Wave 1**
 
-- [ ] 01-01: Install dependencies, synchronize path aliases, replace Google Fonts with `@fontsource`, and generate PWA icon assets
+- [x] 01-01: Install dependencies, synchronize path aliases, replace Google Fonts with `@fontsource`, and generate PWA icon assets
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 01-02: Configure Vitest test runner and write unit tests for procedural math problem generators and bounds validation
+- [x] 01-02: Configure Vitest test runner and write unit tests for procedural math problem generators and bounds validation
 
 ### Phase 2: Database Schema & Go Core Microservice
 
