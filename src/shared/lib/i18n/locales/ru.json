@@ -1,0 +1,113 @@
+{
+  "translation": {
+    "header": {
+      "title": "MATH SANCTUARY",
+      "xp": "XP"
+    },
+    "nav": {
+      "learn": "Учить",
+      "practice": "Практика",
+      "awards": "Награды",
+      "profile": "Профиль"
+    },
+    "hero": {
+      "title": "Готовы к испытанию?",
+      "subtitle": "Продолжайте серию и освойте следующий уровень математических задачек.",
+      "button": "Начать решение"
+    },
+    "dailyGoal": {
+      "title": "Дневная цель",
+      "reached": "Цель достигнута!",
+      "almostThere": "Почти у цели!",
+      "completedDesc": "Вы выполнили дневное задание. Отличная работа!",
+      "remainingDesc_0": "Решите еще {{count}} задачу, чтобы завершить дневную цель.",
+      "remainingDesc_1": "Решите еще {{count}} задачи, чтобы завершить дневную цель.",
+      "remainingDesc_2": "Решите еще {{count}} задач, чтобы завершить дневную цель.",
+      "remainingDesc_3": "Решите еще {{count}} задачи, чтобы завершить дневную цель.",
+      "remainingDesc_one": "Решите еще {{count}} задачу, чтобы завершить дневную цель.",
+      "remainingDesc_few": "Решите еще {{count}} задачи, чтобы завершить дневную цель.",
+      "remainingDesc_many": "Решите еще {{count}} задач, чтобы завершить дневную цель.",
+      "remainingDesc_other": "Решите еще {{count}} задач, чтобы завершить дневную цель."
+    },
+    "topic": {
+      "locked": "Закрыто",
+      "level": "Уровень {{level}}",
+      "wordProblemsSubtitle": "Текстовые задачи в 2–3 действия (1–5 класс)"
+    },
+    "game": {
+      "loading": "Загрузка...",
+      "checkAnswer": "Проверить ответ",
+      "nextStep": "Следующее действие",
+      "nextQuestion": "Дальше",
+      "stepBadge": "Действие {{current}} из {{total}}",
+      "explanationTitle": "Разберём решение!",
+      "correctAnswerIs": "Правильный ответ: {{answer}}",
+      "formulaLabel": "Пример цифрами по шагам",
+      "gotItNextStep": "Понятно, к следующему действию!",
+      "gotItNextQuestion": "Понятно, дальше!",
+      "showExplanation": "Разберём решение!"
+    },
+    "result": {
+      "perfectScore": "Идеальный счёт!",
+      "goodJob": "Отличная работа!",
+      "levelUp": "Новый уровень! Уровень {{level}}",
+      "stats": "Вы правильно решили {{correct}} из {{total}} заданий.",
+      "playAgain": "Играть снова",
+      "backToHome": "Домой"
+    },
+    "categories": {
+      "addition": "Сложение",
+      "subtraction": "Вычитание",
+      "multiplication": "Умножение",
+      "division": "Деление",
+      "fractions": "Дроби",
+      "geometry": "Геометрия",
+      "word-problems": "Текстовые задачи",
+      "mixed": "Случайный микс"
+    },
+    "awards": {
+      "first-steps": {
+        "title": "Первые шаги",
+        "desc": "Решите первые 5 заданий в любых разделах."
+      },
+      "daily-champion": {
+        "title": "Мастер дня",
+        "desc": "Выполните дневную цель — 15 решённых заданий за день."
+      },
+      "sniper": {
+        "title": "Без промаха",
+        "desc": "Пройдите полный раунд со 100% точностью без единой ошибки."
+      },
+      "streak-3": {
+        "title": "Ударная серия",
+        "desc": "Занимайтесь математикой 3 дня подряд."
+      },
+      "visual-explorer": {
+        "title": "Покоритель фигур и долей",
+        "desc": "Решите 10 задач в разделах «Дроби» и «Геометрия»."
+      },
+      "math-wizard": {
+        "title": "Волшебник чисел",
+        "desc": "Наберите 500 очков опыта (XP)."
+      }
+    },
+    "tabs": {
+      "superMixTitle": "Случайный супер-микс",
+      "superMixDesc": "10 случайных заданий вперемешку: арифметика, дроби, геометрия и текстовые задачи!",
+      "startSuperMix": "Запустить микс",
+      "practiceByTopic": "Тренировка по темам",
+      "awardsTitle": "Книга наград",
+      "awardsSubtitle": "Открыто {{unlocked}} из {{total}} достижений",
+      "awardUnlocked": "Получено",
+      "profileTitle": "Карточка ученика",
+      "gradeSelectorTitle": "Школьный класс (базовая сложность 1–5)",
+      "gradeShort": "кл.",
+      "totalXp": "Всего опыта",
+      "streakDays": "Дней подряд",
+      "totalSolved": "Решено задач",
+      "perfectRounds": "Без ошибок",
+      "topicStatsTitle": "Успеваемость по темам",
+      "solvedCount": "Решено: {{count}}"
+    }
+  }
+}

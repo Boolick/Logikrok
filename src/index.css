@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Manrope:wght@400;500;600;700;800&family=Russo+One&display=swap');
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────
+   STORYBOOK ON PEACH PAPER (Lpalo — Blush Playground)
+   Flat illustrated aesthetic: Peach Paper canvas,
+   2px solid Ink outlines, 47px pills, crayon fills.
+   Zero shadows, zero gradients, zero grays.
+   ───────────────────────────────────────────────────── */
+
+:root {
+  /* ── Lpalo Reference Tokens ── */
+  --color-canvas-pink: #f6e0db;
+  --color-surface-white: #ffffff;
+  --color-charcoal-text: #000000;
+  --color-pumpkin-accent: #ef724f;
+  --color-lemon-highlight: #e7db4c;
+  --color-bubblegum-pink: #981082;
+  --color-spring-green: #6ed311;
+  --color-seafoam-accent: #ace2df;
+  --color-lavender-glow: #e69dff;
+  --color-sky-blue: #84bfff;
+  --color-deep-blue: #5196ff;
+
+  /* ── Storybook Crayon Tokens (HSL & Hex) ── */
+  --peach-paper: #f6e0db;
+  --ink: #000000;
+  --snow: #ffffff;
+  --ember-orange: #ef724f;
+  --magenta-pop: #981082;
+  --sunbeam-yellow: #e7db4c;
+  --mint-wash: #ace2df;
+  --powder-blue: #84bfff;
+  --lilac-tint: #e69dff;
+  --lime-zest: #6ed311;
+  --cobalt-spark: #5196ff;
+
+  /* ── Semantic Aliases ── */
+  --background: var(--peach-paper);
+  --foreground: var(--ink);
+  --border: var(--ink);
+  --card: var(--snow);
+  --card-foreground: var(--ink);
+
+  /* ── Typography Scale ── */
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --text-body-sm: 16px;
+  --leading-body-sm: 1.2;
+  --text-body: 25px;
+  --leading-body: 1.24;
+  --text-subheading: 34px;
+  --leading-subheading: 1.16;
+  --text-heading-lg: 46px;
+  --leading-heading-lg: 1.09;
+  --text-expression: 50px;
+  --leading-expression: 1.12;
+  --text-display: 120px;
+  --leading-display: 1;
+
+  /* ── Layout & Radii ── */
+  --section-gap: 46px;
+  --card-padding: 15px;
+  --element-gap: 10px;
+  --radius-cards: 10px;
+  --radius-default: 47px;
+  --radius-largecards: 40px;
+  --radius-navigation: 47px;
+}
+
+/* ─────────────────────────────────────────────────────
+   DARK STORYBOOK THEME ("Night Storybook")
+   Preserves 2px solid outlines, 47px pills, flat fills,
+   zero shadows, and high-contrast crayon cards.
+   ───────────────────────────────────────────────────── */
+.dark {
+  --color-canvas-pink: #1b1528;
+  --color-surface-white: #28203b;
+  --color-charcoal-text: #fff8f5;
+  --color-pumpkin-accent: #ff7e5b;
+  --color-lemon-highlight: #f2e555;
+  --color-bubblegum-pink: #e052c4;
+  --color-spring-green: #7ce81e;
+  --color-seafoam-accent: #ace2df;
+  --color-lavender-glow: #e69dff;
+  --color-sky-blue: #84bfff;
+  --color-deep-blue: #6aa6ff;
+
+  --peach-paper: #1b1528;
+  --ink: #fff8f5;
+  --snow: #28203b;
+  --ember-orange: #ff7e5b;
+  --magenta-pop: #e052c4;
+  --sunbeam-yellow: #f2e555;
+  --mint-wash: #ace2df;
+  --powder-blue: #84bfff;
+  --lilac-tint: #e69dff;
+  --lime-zest: #7ce81e;
+  --cobalt-spark: #6aa6ff;
+
+  --background: var(--peach-paper);
+  --foreground: var(--ink);
+  --border: var(--ink);
+  --card: var(--snow);
+  --card-foreground: var(--ink);
+}
+
+@theme {
+  /* ── Fonts (Alfa Slab One + Cyrillic Russo One pair, Manrope body) ── */
+  --font-alfa-slab-one: "Alfa Slab One", "Russo One", ui-sans-serif, system-ui, sans-serif;
+  --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-headline: "Alfa Slab One", "Russo One", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  /* ── Lpalo & Storybook Color Palette ── */
+  --color-canvas-pink: var(--color-canvas-pink);
+  --color-surface-white: var(--color-surface-white);
+  --color-charcoal-text: var(--color-charcoal-text);
+  --color-pumpkin-accent: var(--color-pumpkin-accent);
+  --color-lemon-highlight: var(--color-lemon-highlight);
+  --color-bubblegum-pink: var(--color-bubblegum-pink);
+  --color-spring-green: var(--color-spring-green);
+  --color-seafoam-accent: var(--color-seafoam-accent);
+  --color-lavender-glow: var(--color-lavender-glow);
+  --color-sky-blue: var(--color-sky-blue);
+  --color-deep-blue: var(--color-deep-blue);
+
+  --color-peach-paper: var(--peach-paper);
+  --color-ink: var(--ink);
+  --color-snow: var(--snow);
+  --color-ember-orange: var(--ember-orange);
+  --color-magenta-pop: var(--magenta-pop);
+  --color-sunbeam-yellow: var(--sunbeam-yellow);
+  --color-mint-wash: var(--mint-wash);
+  --color-powder-blue: var(--powder-blue);
+  --color-lilac-tint: var(--lilac-tint);
+  --color-lime-zest: var(--lime-zest);
+  --color-cobalt-spark: var(--cobalt-spark);
+
+  /* ── Semantic Aliases ── */
+  --color-background: var(--background);
+  --color-on-background: var(--foreground);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-surface: var(--peach-paper);
+  --color-on-surface: var(--ink);
+  --color-surface-container-lowest: var(--snow);
+  --color-surface-container-high: var(--snow);
+  --color-surface-container-highest: var(--snow);
+  --color-primary: var(--ember-orange);
+  --color-on-primary: #000000;
+  --color-secondary: var(--lime-zest);
+  --color-on-secondary: #000000;
+  --color-tertiary: var(--sunbeam-yellow);
+  --color-on-tertiary: #000000;
+  --color-error: var(--ember-orange);
+  --color-on-error: #000000;
+
+  /* ── Radii (Strict Storybook Pill & Card Radii) ── */
+  --radius-sm: 10px;
+  --radius-cards: 10px;
+  --radius-lg: 10px;
+  --radius-3xl: 40px;
+  --radius-large: 40px;
+  --radius-pill: 47px;
+  --radius-default: 47px;
+  --radius-full: 9999px;
+}
+
+/* ─────────────────────────────────────────────────────
+   BASE STYLES
+   ───────────────────────────────────────────────────── */
+body {
+  font-family: var(--font-manrope);
+  background-color: var(--peach-paper);
+  color: var(--ink);
+  min-height: max(884px, 100dvh);
+  overflow-x: hidden;
+}
+
+h1, h2, .font-slab {
+  font-family: var(--font-alfa-slab-one);
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+/* Smooth micro-interactions within 150ms budget */
+button, a {
+  transition-property: background-color, border-color, color, transform, opacity;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}

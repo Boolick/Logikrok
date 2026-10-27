@@ -1,0 +1,107 @@
+{
+  "translation": {
+    "header": {
+      "title": "MATH SANCTUARY",
+      "xp": "XP"
+    },
+    "nav": {
+      "learn": "Learn",
+      "practice": "Practice",
+      "awards": "Awards",
+      "profile": "Profile"
+    },
+    "hero": {
+      "title": "Ready for a challenge?",
+      "subtitle": "Continue your streak and master the next level of math puzzles.",
+      "button": "Start Solving"
+    },
+    "dailyGoal": {
+      "title": "Daily Goal",
+      "reached": "Goal Reached!",
+      "almostThere": "Almost there!",
+      "completedDesc": "You've completed your daily challenge. Great job!",
+      "remainingDesc_one": "Solve {{count}} more problem to complete your daily challenge.",
+      "remainingDesc_other": "Solve {{count}} more problems to complete your daily challenge."
+    },
+    "topic": {
+      "locked": "Locked",
+      "level": "Level {{level}}",
+      "wordProblemsSubtitle": "Multi-step story problems for Grades 1–5"
+    },
+    "game": {
+      "loading": "Loading...",
+      "checkAnswer": "Check Answer",
+      "nextStep": "Next Step",
+      "nextQuestion": "Next Question",
+      "stepBadge": "Step {{current}} of {{total}}",
+      "explanationTitle": "Let's Break It Down!",
+      "correctAnswerIs": "Correct answer: {{answer}}",
+      "formulaLabel": "Step-by-step calculation",
+      "gotItNextStep": "Got It, Next Step!",
+      "gotItNextQuestion": "Got It, Continue!",
+      "showExplanation": "Show Solution Steps"
+    },
+    "result": {
+      "perfectScore": "Perfect Score!",
+      "goodJob": "Good Job!",
+      "levelUp": "Level Up! Now Level {{level}}",
+      "stats": "You answered {{correct}} out of {{total}} problems correctly.",
+      "playAgain": "Play Again",
+      "backToHome": "Home"
+    },
+    "categories": {
+      "addition": "Addition",
+      "subtraction": "Subtraction",
+      "multiplication": "Multiplication",
+      "division": "Division",
+      "fractions": "Fractions",
+      "geometry": "Geometry",
+      "word-problems": "Word Problems",
+      "mixed": "Super Mix"
+    },
+    "awards": {
+      "first-steps": {
+        "title": "First Steps",
+        "desc": "Solve your first 5 math problems across any topic."
+      },
+      "daily-champion": {
+        "title": "Daily Champion",
+        "desc": "Complete the Daily Goal of 15 problems in a single day."
+      },
+      "sniper": {
+        "title": "Sharp Shooter",
+        "desc": "Finish an entire round with 100% accuracy and zero mistakes."
+      },
+      "streak-3": {
+        "title": "3-Day Streak",
+        "desc": "Practice math for 3 days in a row."
+      },
+      "visual-explorer": {
+        "title": "Shape & Fraction Master",
+        "desc": "Solve 10 problems in Fractions and Geometry."
+      },
+      "math-wizard": {
+        "title": "Number Wizard",
+        "desc": "Earn 500 total XP from solving problems."
+      }
+    },
+    "tabs": {
+      "superMixTitle": "Super Mix Blitz",
+      "superMixDesc": "10 random problems mixing Arithmetic, Fractions, Geometry, and Word Problems!",
+      "startSuperMix": "Start Super Mix",
+      "practiceByTopic": "Practice by Topic",
+      "awardsTitle": "Storybook Badges",
+      "awardsSubtitle": "Unlocked {{unlocked}} of {{total}} badges",
+      "awardUnlocked": "Unlocked",
+      "profileTitle": "Explorer Card",
+      "gradeSelectorTitle": "Select School Grade (Grades 1–5)",
+      "gradeShort": "gr.",
+      "totalXp": "Total XP",
+      "streakDays": "Day Streak",
+      "totalSolved": "Total Solved",
+      "perfectRounds": "Perfect Rounds",
+      "topicStatsTitle": "Topic Mastery",
+      "solvedCount": "Solved: {{count}}"
+    }
+  }
+}
