@@ -13,7 +13,7 @@ export default defineConfig(() => {
         registerType: "autoUpdate",
         manifest: {
           name: "Logikrok",
-          short_name: "Math",
+          short_name: "Logikrok",
           description: "Math learning PWA game for kids",
           theme_color: "#f6e0db",
           icons: [
