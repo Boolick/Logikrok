@@ -1,22 +1,22 @@
-# Walking Skeleton — Math Sanctuary (Logikrok)
+# Walking Skeleton — Logikrok (Logikrok)
 
 **Phase:** 1
 **Generated:** 2026-10-27
 
 ## Capability Proven End-to-End
 
-> A student can launch Math Sanctuary offline in a browser or PWA, solve a dynamically generated math round with local Storybook fonts and icons, and have their XP, streak, and level progression persisted and verified by an automated Vitest suite.
+> A student can launch Logikrok offline in a browser or PWA, solve a dynamically generated math round with local Storybook fonts and icons, and have their XP, streak, and level progression persisted and verified by an automated Vitest suite.
 
 ## Architectural Decisions
 
-| Decision | Choice | Rationale |
-|---|---|---|
-| Client Framework | Vite 6 + React 19 + TypeScript 5.8 (FSD) | Instant HMR, zero SSR hydration overhead, native offline PWA & Capacitor compatibility |
-| Styling & Typography | Tailwind CSS v4 + `@fontsource` local bundles | Guarantees 100% offline visual fidelity to the "Storybook on Peach Paper" design system |
-| Core Backend (Phase 2) | Go 1.23+ Microservice on Koyeb (<50MB RAM) | Sub-millisecond latency, minimal memory footprint, secure server-side Telegram HMAC & anti-cheat |
-| Presentation / Session (Phase 3) | BFF Layer (`httpOnly` cookies + SSG/SEO) | Protects Web auth tokens from XSS and provides search-engine indexable landing pages |
-| Database (Phase 2) | PostgreSQL (Neon / Supabase / Koyeb DB) | Relational integrity for users, sessions, category progress, streaks, and awards |
-| Mobile & Social Shells (Phases 5–6) | Capacitor (Android) + `@telegram-apps/sdk` (TMA) | 100% code reuse from the Vite React SPA across Google Play and Telegram |
+| Decision                            | Choice                                           | Rationale                                                                                        |
+| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Client Framework                    | Vite 6 + React 19 + TypeScript 5.8 (FSD)         | Instant HMR, zero SSR hydration overhead, native offline PWA & Capacitor compatibility           |
+| Styling & Typography                | Tailwind CSS v4 + `@fontsource` local bundles    | Guarantees 100% offline visual fidelity to the "Storybook on Peach Paper" design system          |
+| Core Backend (Phase 2)              | Go 1.23+ Microservice on Koyeb (<50MB RAM)       | Sub-millisecond latency, minimal memory footprint, secure server-side Telegram HMAC & anti-cheat |
+| Presentation / Session (Phase 3)    | BFF Layer (`httpOnly` cookies + SSG/SEO)         | Protects Web auth tokens from XSS and provides search-engine indexable landing pages             |
+| Database (Phase 2)                  | PostgreSQL (Neon / Supabase / Koyeb DB)          | Relational integrity for users, sessions, category progress, streaks, and awards                 |
+| Mobile & Social Shells (Phases 5–6) | Capacitor (Android) + `@telegram-apps/sdk` (TMA) | 100% code reuse from the Vite React SPA across Google Play and Telegram                          |
 
 ## Stack Touched in Phase 1
 
@@ -43,3 +43,4 @@ Each later phase adds one vertical slice on top of this foundation without alter
 - **Phase 4:** Client Offline-First Sync Engine (`gameSessionService` background queue + sync status UI)
 - **Phase 5:** Android distribution via Capacitor (native shell, splash screen, adaptive icons, APK/AAB)
 - **Phase 6:** Telegram Mini App integration (`@telegram-apps/sdk`, auto-login, native haptics)
+

@@ -1,6 +1,6 @@
-# Math Sanctuary (Logikrok)
+# Logikrok (Logikrok)
 
-**Math Sanctuary** is an interactive Progressive Web Application (PWA) math learning game for children in **Grades 1–5**, crafted in the warm illustrated **"Storybook on Peach Paper" (Lpalo Blush Playground)** design system.
+**Logikrok** is an interactive Progressive Web Application (PWA) math learning game for children in **Grades 1–5**, crafted in the warm illustrated **"Storybook on Peach Paper" (Lpalo Blush Playground)** design system.
 
 It combines adaptive arithmetic, visual fraction & geometry SVG diagrams, parameterized multi-step story problems, an Instagram-style step-by-step error explanation drawer, and a Firestore-ready student progress & achievement engine.
 
@@ -62,7 +62,7 @@ src/
 ├── features/
 │   └── game-session/         # useGameSession hook (multi-step validation, XP, level-up, awards)
 ├── widgets/
-│   ├── header/               # Top bar with MATH SANCTUARY pill, XP badge, language & theme toggles
+│   ├── header/               # Top bar with Logikrok pill, XP badge, language & theme toggles
 │   ├── bottom-nav/           # Outlined 47px pill navigation bar (Learn, Practice, Awards, Profile)
 │   └── game-card/            # Interactive quiz card, SVG visual renderer & ExplanationDrawer sheet
 ├── pages/

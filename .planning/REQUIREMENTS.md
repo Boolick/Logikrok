@@ -1,4 +1,4 @@
-# Requirements: Math Sanctuary (Logikrok)
+# Requirements: Logikrok (Logikrok)
 
 **Defined:** 2026-10-27
 **Core Value:** Provide children with an engaging, friction-free, tactile math learning experience across any device (Web, Android, Telegram) with reliable offline play and tamper-proof cloud progress synchronization.
@@ -66,47 +66,50 @@ Deferred to future release. Tracked but not in current roadmap.
 
 Explicitly excluded. Documented to prevent scope creep.
 
-| Feature | Reason |
-|---------|--------|
-| Full rewrite to Next.js SSR for game engine | Game relies on rich client animations and instant offline PWA execution; rewriting to SSR adds hydration overhead and breaks Capacitor simplicity |
-| Heavy Node/NestJS monolithic backend | Replaced by lightweight Go microservice consuming <50MB RAM for cost and operational efficiency on Koyeb |
-| Real-time synchronous multiplayer WebSocket server | High operational complexity; single-player offline-first learning with async leaderboards is preferred for v1 |
-| In-app purchases / subscription payment gateways | Application will launch as a free educational tool to maximize adoption across schools and families |
+| Feature                                            | Reason                                                                                                                                            |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Full rewrite to Next.js SSR for game engine        | Game relies on rich client animations and instant offline PWA execution; rewriting to SSR adds hydration overhead and breaks Capacitor simplicity |
+| Heavy Node/NestJS monolithic backend               | Replaced by lightweight Go microservice consuming <50MB RAM for cost and operational efficiency on Koyeb                                          |
+| Real-time synchronous multiplayer WebSocket server | High operational complexity; single-player offline-first learning with async leaderboards is preferred for v1                                     |
+| In-app purchases / subscription payment gateways   | Application will launch as a free educational tool to maximize adoption across schools and families                                               |
 
 ## Traceability
 
 Which phases cover which requirements. Populated during roadmap creation.
 
-| Requirement | Phase | Status |
-|-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
-| FOUND-05 | Phase 1 | Pending |
-| BACK-01 | Phase 2 | Pending |
-| BACK-02 | Phase 2 | Pending |
-| BACK-03 | Phase 2 | Pending |
-| BACK-04 | Phase 2 | Pending |
-| BACK-05 | Phase 2 | Pending |
-| BFF-01 | Phase 3 | Pending |
-| BFF-02 | Phase 3 | Pending |
-| BFF-03 | Phase 3 | Pending |
-| SYNC-01 | Phase 4 | Pending |
-| SYNC-02 | Phase 4 | Pending |
-| SYNC-03 | Phase 4 | Pending |
-| DROID-01 | Phase 5 | Pending |
-| DROID-02 | Phase 5 | Pending |
-| DROID-03 | Phase 5 | Pending |
-| TMA-01 | Phase 6 | Pending |
-| TMA-02 | Phase 6 | Pending |
-| TMA-03 | Phase 6 | Pending |
+| Requirement | Phase   | Status  |
+| ----------- | ------- | ------- |
+| FOUND-01    | Phase 1 | Pending |
+| FOUND-02    | Phase 1 | Pending |
+| FOUND-03    | Phase 1 | Pending |
+| FOUND-04    | Phase 1 | Pending |
+| FOUND-05    | Phase 1 | Pending |
+| BACK-01     | Phase 2 | Pending |
+| BACK-02     | Phase 2 | Pending |
+| BACK-03     | Phase 2 | Pending |
+| BACK-04     | Phase 2 | Pending |
+| BACK-05     | Phase 2 | Pending |
+| BFF-01      | Phase 3 | Pending |
+| BFF-02      | Phase 3 | Pending |
+| BFF-03      | Phase 3 | Pending |
+| SYNC-01     | Phase 4 | Pending |
+| SYNC-02     | Phase 4 | Pending |
+| SYNC-03     | Phase 4 | Pending |
+| DROID-01    | Phase 5 | Pending |
+| DROID-02    | Phase 5 | Pending |
+| DROID-03    | Phase 5 | Pending |
+| TMA-01      | Phase 6 | Pending |
+| TMA-02      | Phase 6 | Pending |
+| TMA-03      | Phase 6 | Pending |
 
 **Coverage:**
+
 - v1 requirements: 20 total
 - Mapped to phases: 20
 - Unmapped: 0 ✓
 
 ---
-*Requirements defined: 2026-10-27*
-*Last updated: 2026-10-27 after initialization*
+
+_Requirements defined: 2026-10-27_
+_Last updated: 2026-10-27 after initialization_
+

@@ -1,4 +1,4 @@
-# Math Sanctuary (Logikrok)
+# Logikrok (Logikrok)
 
 ## What This Is
 
@@ -59,19 +59,20 @@ Provide children with an engaging, friction-free, tactile math learning experien
 
 ## Key Decisions
 
-| Decision | Rationale | Outcome |
-|----------|-----------|---------|
-| Retain Vite + React 19 for the game engine | Maximizes client-side animation performance, PWA offline caching, and instant builds; avoids SSR hydration pitfalls | — Pending |
-| Multiplatform via Capacitor + TMA | Single React codebase deployed to Web, Android (Google Play), and Telegram Mini App | — Pending |
-| Lightweight Go backend on Koyeb | Consumes only 25–30 MB RAM, starts in milliseconds, enables secure Telegram HMAC checks and anti-cheat session validation | — Pending |
-| BFF layer for Web presentation & cookies | Encapsulates `httpOnly` secure cookies for Web clients and provides SSG/SEO landing pages without polluting the Go core API | — Pending |
-| Offline-First Sync Architecture | Guarantees kids can play without network; background synchronizer merges local state with PostgreSQL when connection is available | — Pending |
+| Decision                                   | Rationale                                                                                                                         | Outcome   |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Retain Vite + React 19 for the game engine | Maximizes client-side animation performance, PWA offline caching, and instant builds; avoids SSR hydration pitfalls               | — Pending |
+| Multiplatform via Capacitor + TMA          | Single React codebase deployed to Web, Android (Google Play), and Telegram Mini App                                               | — Pending |
+| Lightweight Go backend on Koyeb            | Consumes only 25–30 MB RAM, starts in milliseconds, enables secure Telegram HMAC checks and anti-cheat session validation         | — Pending |
+| BFF layer for Web presentation & cookies   | Encapsulates `httpOnly` secure cookies for Web clients and provides SSG/SEO landing pages without polluting the Go core API       | — Pending |
+| Offline-First Sync Architecture            | Guarantees kids can play without network; background synchronizer merges local state with PostgreSQL when connection is available | — Pending |
 
 ## Evolution
 
 This document evolves at phase transitions and milestone boundaries.
 
 **After each phase transition** (via `/gsd-transition`):
+
 1. Requirements invalidated? → Move to Out of Scope with reason
 2. Requirements validated? → Move to Validated with phase reference
 3. New requirements emerged? → Add to Active
@@ -79,10 +80,13 @@ This document evolves at phase transitions and milestone boundaries.
 5. "What This Is" still accurate? → Update if drifted
 
 **After each milestone** (via `/gsd-complete-milestone`):
+
 1. Full review of all sections
 2. Core Value check — still the right priority?
 3. Audit Out of Scope — reasons still valid?
 4. Update Context with current state
 
 ---
-*Last updated: 2026-10-27 after initialization*
+
+_Last updated: 2026-10-27 after initialization_
+
